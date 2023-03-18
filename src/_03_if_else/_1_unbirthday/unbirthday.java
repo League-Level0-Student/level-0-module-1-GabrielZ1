@@ -17,7 +17,7 @@ String birthday = JOptionPane.showInputDialog("When is your birthday (mm/dd)?");
 
 //If it matches today's date, wish them a happy birthday
 
-if (birthday.equals("03/12")) {
+if (birthday.equals("03/18")) {
 
 JOptionPane.showMessageDialog(null, "Happy Birthday!!!");
 	
