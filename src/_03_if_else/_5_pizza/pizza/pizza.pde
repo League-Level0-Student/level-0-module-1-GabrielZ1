@@ -89,9 +89,9 @@ image(mushroom,425,230);
 
 //this plays a sound and draws all toppings if a key is pressed
 
-if(keyPressed){
-sound.play();
-sound.rewind();
+if(keyPressed == true){
+
+  sound.play();
 
   
   image(pepperoni,90,70);
@@ -123,4 +123,11 @@ image(mushroom,425,230);
 
 
 }
+}
+
+//this makes it so when the key is released, the sound rewinds and it can play again
+void keyReleased(){
+sound.pause();
+sound.rewind();
+
 }
