@@ -25,7 +25,7 @@ public class SecretMessageBox {
 
 		// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
 
-		String secretMessage = JOptionPane.showInputDialog(null, "Enter a secret message.");
+		String secretMessage = JOptionPane.showInputDialog("Enter a secret message.");
 
 		// 3. Now use a pop-up to tell the NEXT user that they can only see the secret message 
 		//    if they can guess the passcode
